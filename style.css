@@ -1,0 +1,39 @@
+/* 버튼 스타일 */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 모둠 카드 스타일 */
+.group-card {
+    background: white;
+    border-left: 6px solid #4f46e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.group-card:hover {
+    transform: scale(1.03);
+}
+.group-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f46e5;
+    margin-bottom: 10px;
+}
+.group-members {
+    font-size: 16px;
+    color: #333;
+}
